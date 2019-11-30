@@ -10,6 +10,10 @@
   <meta content="" name="keywords">
   <meta content="" name="description">
 
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 
@@ -37,7 +41,7 @@
         <ul class="nav-menu list-unstyled">
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
-          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#specialities" class="smoothScroll">Specialities</a></li>
           <li><a href="#journal" class="smoothScroll">Blog</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
@@ -54,7 +58,7 @@
     <div class="container">
       <div class="header-content">
         <h1>I'm Jack Lok<span class="typed"></span></h1>
-        <p id="codebutton">return (Software Engineer + learner.)</p>
+        <p id="codebutton">return (Full Stack Developer + learner.)</p>
         <p id="line2">Freedom Lover HKer, SF Bay Area Based.</p>
 
       </div>
@@ -86,17 +90,18 @@
                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; masterScience: {<br>
                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; school: "Columbia University in the City of New York",<br>
                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; major: "Applied Analytics",<br>
-                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endDate: "Feb 2019"<br>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endDate: "Feb 2019",<br>
                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },<br>
                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bachelorArts: {<br>
                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; school: "University of California, Berkeley",<br>
                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; major: "Statistics",<br>
-                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endDate: "Aug 2014"<br>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; minor: "Demography",<br>
+                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endDate: "Aug 2014",<br>
                                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
                                              &nbsp;&nbsp;&nbsp;&nbsp; }<br>
                         <br></span>
                         &gt; jack.<span class="codekey">interests</span><br>
-                        <span class="answer">&nbsp;&nbsp;=&gt; ["Code", "Coffee", "Music", "English Premier League"]<br><br></span>
+                        <span class="answer">&nbsp;&nbsp;=&gt; ["Code", "Coffee", "Karaoke", "Piano", "Travel", "English Premier League"]<br><br></span>
                         &gt; jack.<span class="codekey">resume</span><br>
                         <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="">jacklok.pdf</a>"<br><br></span>
                         
@@ -120,6 +125,7 @@
   <!-- start section about -->
   <div id="about" class="paddsection">
     <div class="container">
+      <h2 id="aboutme-header">About Me</h2>
       <div class="row justify-content-between">
 
         <div class="col-lg-4 ">
@@ -130,34 +136,207 @@
           </div>
         </div>
 
+
+        
+
         <div class="col-lg-7">
           <div class="about-descr">
 
-            <p class="p-heading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta sit quidem maxime impedit fuga, praesentium harum at voluptates, enim sunt vero eius velit! Accusantium, odio voluptatem? Voluptatum iure natus tempore porro repudiandae quos sit quis error libero voluptatem, minus perferendis, neque officia provident, expedita eum mollitia harum maiores consequuntur. Exercitationem! </p>
-            <p class="separator">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quo? Ad maiores eos officiis. Rem facilis ex nostrum aut dolorum. Quaerat, vel dolore!p</p>
+            <p class="p-heading">
+                <p class="p-details">I'm a full stack developer with a Master degree in Applied Analytics from Columbia University. Having some years of experience in the tech industry from previous careers shaped me into an effective team member. As a developer I always strive for the best outcomes and learn new technologies to create innovative and scalable applications.</p>
+                <p class="p-details">Sometimes, it’s hard not to compare myself with my former co-workers, and friends in this industry, who are 1000 times more successful than me. I truly understand that everyone is unique, and we need not compare ourselves with others. Rather than letting the negative emotion demoralize me, I convert it to my motivation. “Chance favors the prepared mind.” While the successful stories of my peers are my motivator, being prepared is my all-time attitude. A prepared mind does not necessarily lead to success, but a successful person is always prepared. I will keep at it! :)</p>
+            </p>
+            <p class="separator">When I'm not coding, I like playing piano, singing karaoke, and sharing music to my beloved ones.</p>
 
           </div>
 
+
+
+          
+
         </div>
       </div>
+
+
     </div>
   </div>
   <!-- end section about -->
 
 
 
-  <!-- start section portfolio -->
-  <div id="portfolio" class="text-center paddsection">
+  <!-- start section Specialities -->
+  <div id="specialities" class="text-center paddsection">
 
     <div class="container">
       <div class="section-title text-center">
-        <h2>My Portfolio</h2>
+        <h2>My Specialities</h2>
       </div>
     </div>
 
+    <div class="container">
+            <div class="row">
+                <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                    <div class="MultiCarousel-inner">
+                        <div class="item"> 
+                            <div class="pad15">
+                                <p class="lead">React</p>
+                                <p><img src="images/react.png" alt=""></p>
+                            </div>
+                        </div>
+                        <div class="item"> 
+                            <div class="pad15">
+                                <p class="lead">NodeJS</p>
+                                <p><img src="images/nodejs.png" alt=""></p>
+                            </div>
+                        </div>
+                        <div class="item"> 
+                            <div class="pad15">
+                                <p class="lead">JavaScript</p>
+                                <p><img src="images/js.png" alt=""></p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">HTML</p>
+                                <p><img src="images/html5.png" alt=""></p>
+  
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">CSS</p>
+                                <p><img src="images/css.png" alt=""></p>
+      
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <!-- <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Multi Item Carousel</p>
+                                <p>₹ 1</p>
+                                <p>₹ 6000</p>
+                                <p>50% off</p>
+                            </div>
+                        </div> -->
+                    </div>
+                    <button class="MultiCarouselbtn btn-primary leftLst"><</button>
+                    <button class="MultiCarouselbtn btn-primary rightLst">></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <br/><br/><br/>
+                    <hr/>
+                    <p>Settings</p>
+                    <p>Change data items for xs,sm,md and lg display items respectively. Ex:data-items="1,3,5,6"</p>
+                    <p>Change data slide for slides per click Ex:data-slide="1"</p>
+                </div>
+            </div>
+        </div>
+
+    
+    
+
 
   </div>
-  <!-- End section portfolio -->
+
+  
+  <!-- End section Specialities -->
 
 
 
@@ -230,6 +409,7 @@
   <script src="https://simeydotme.github.io/jQuery-canvas-sparkles/bower_components/jquery/dist/jquery.min.js"></script>
   <script src="https://simeydotme.github.io/jQuery-canvas-sparkles/bower_components/requestAnimationFrame-polyfill/requestAnimationFrame.js"></script>
   <script src="https://simeydotme.github.io/jQuery-canvas-sparkles/dist/jquery-canvas-sparkles.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 
   <script src="js/main.js"></script>
