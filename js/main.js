@@ -95,8 +95,9 @@ $(document).ready(function() {
         code.style.opacity = 1;
         code.style.transform = 'scale(1)';
       },0);
+  
 
-      $(".header-content").css('display', 'none')
+      // $(".header-content").css('display', 'none')
       windowbar.style.display = 'block';
       window.setTimeout(function(){
         windowbar.style.opacity = 1;
@@ -114,18 +115,14 @@ $(document).ready(function() {
       window.setTimeout(function(){
         code.style.display = 'none';
         windowbar.style.display = 'none';
-      },700);
+      },0)
       $(".header-content").css('display', 'flex')
+      
   
   });
 
-  // $(".buttonclose").on('click', function(e) {
-  //   $(".header-content").css('display', 'flex')
-  //   $("#code").css('display', 'none')
-  //   $("#windowbar").css('display', 'none')
-  // })
- 
-  //  
+  // Multi-Carousel
+  // credit to https://bootsnipp.com/snippets/zDQkr
   var itemsMainDiv = ('.MultiCarousel');
   var itemsDiv = ('.MultiCarousel-inner');
   var itemWidth = "";
