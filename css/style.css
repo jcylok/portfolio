@@ -170,7 +170,8 @@ p {
 
 nav {
   position: fixed;
-  background: rgba(255,255,255,0.2);
+  /* background: rgba(255,255,255,0.2); */
+  background: rgba(0, 0, 0, 0.8);
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -254,15 +255,21 @@ nav ul li a {
   }
 }
 
-.header-content h1:hover {
+/* .header-content h1:hover {
   animation: shake 4s;
   animation-iteration-count: infinite;
-}
+} */
 
-.header-content p:hover {
+#codebutton {
     animation: shake 4s;
     animation-iteration-count: infinite;
     color: #18d26e;
+    cursor: pointer;
+}
+.header-content p:hover, #codebutton {
+    animation: shake 4s;
+    animation-iteration-count: infinite;
+    /* color: #18d26e; */
 }
 /* https://www.w3schools.com/howto/howto_css_shake_image.asp */
 @keyframes shake {
@@ -298,9 +305,25 @@ nav ul li a {
   font-weight: 500;
 }
 
+@media (max-width:480px) {
+  .header-content h1 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .header-content p {
+    font-size: 10px;
+  }
+}
+
 
 #line2 {
   font-size: 18px;
+}
+
+@media (max-width:480px) {
+  #line2 {
+    font-size: 10px;
+  }
 }
 
 .header-content .list-social li {
@@ -315,12 +338,16 @@ nav ul li a {
 
 #windowbar {
   height: 25px;
+  /* width: 800px; */
   background: #DEE1E6;
   border-radius: 5px 5px 0 0;
-  transform: translate(0px,30px);
+  transform: translate(0px,70px);
+  display: none;
+  transition: .6s ease opacity,.6s ease transform;
+  
 }
 
-.buttonclose {
+#buttonclose {
   display:block;
   box-sizing:border-box;
   width:20px;
@@ -337,7 +364,7 @@ nav ul li a {
   transform: translate(0,3px);
 }
 
-.buttonclose:hover {
+#buttonclose:hover {
   background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%);
   background-color: rgba(255,95,88,1);
 }
@@ -357,9 +384,14 @@ nav ul li a {
   text-align: left;
   font-size: 13px;
   color: #fafafa;
-  display: block;
+  border-radius: 0 0 5px 5px;
+  display: none;
+  /* display: block; */
   overflow: auto;
   transform: translate(0px, 30px);
+  /* transform: scale(0); */
+  transition: .6s ease opacity,.6s ease transform;
+
 }
 
 @media (max-width:480px) {
@@ -382,8 +414,12 @@ color:#DCDCAA;
 color:#569CD6;
 }
 
+
+
+  
+
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About
 /*-----------------------------------------------------------------------------------*/
 
 #about {
@@ -396,6 +432,7 @@ color:#569CD6;
 #about .div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #b8a07e;
+  border-radius: 10px;
 }
 
 #about .div-img-bg .about-img img {
@@ -405,6 +442,7 @@ color:#569CD6;
   margin-left: 40px;
   height: 400px;
   object-fit: cover;
+  border-radius: 3%;
 }
 
 #about .about-descr .p-heading {

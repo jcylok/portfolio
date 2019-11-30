@@ -82,6 +82,50 @@ $(document).ready(function() {
   });
 
 
+  let hint = document.getElementById('code');
+  let hint2 = document.getElementById('windowbar');
+  let btn = document.getElementById('codebutton');
+  let btnclose = document.getElementById('buttonclose');
+
+  btn.addEventListener('click', function(){
+
+      $(".header-content").css('display', 'none')
+      hint.style.display = 'block';
+      window.setTimeout(function(){
+        hint.style.opacity = 1;
+        hint.style.transform = 'scale(1)';
+      },0);
+
+      $(".header-content").css('display', 'none')
+      hint2.style.display = 'block';
+      window.setTimeout(function(){
+        hint2.style.opacity = 1;
+        hint2.style.transform = 'scale(1)';
+      },0);
+
+  });
+
+  btnclose.addEventListener('click', function(){
+
+      hint.style.opacity = 0;
+      hint2.style.opacity = 0;
+      hint.style.transform = 'scale(0)';
+      hint2.style.transform = 'scale(0)';
+      window.setTimeout(function(){
+        hint.style.display = 'none';
+        hint2.style.display = 'none';
+      },700);
+      $(".header-content").css('display', 'flex')
+  
+  });
+
+  // $(".buttonclose").on('click', function(e) {
+  //   $(".header-content").css('display', 'flex')
+  //   $("#code").css('display', 'none')
+  //   $("#windowbar").css('display', 'none')
+  // })
+
+
 
 
 });
