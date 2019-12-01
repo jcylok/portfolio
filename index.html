@@ -42,7 +42,7 @@
           <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
           <li><a href="#specialities" class="smoothScroll">Specialities</a></li>
-          <li><a href="#journal" class="smoothScroll">Blog</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
 
@@ -57,8 +57,8 @@
 
     <div class="container">
       <div class="header-content">
-        <h1>I'm Jack Lok<span class="typed"></span></h1>
-        <p id="codebutton">return (Full Stack Developer + learner.)</p>
+        <h1>Jack Lok<span class="typed"></span></h1>
+        <p id="codebutton">return <span id="fullstack">(Full Stack Developer)</span></p>
         <p id="line2">Freedom Loving HKer, SF Bay Area Based.</p>
 
       </div>
@@ -125,7 +125,7 @@
   <!-- start section about -->
   <div id="about" class="paddsection">
     <div class="container">
-      <h2 id="aboutme-header">ABOUT ME</h2>
+      <h2 id="aboutme-header">About Me</h2>
       <div class="row justify-content-between">
 
         <div class="col-lg-4 ">
@@ -136,25 +136,18 @@
           </div>
         </div>
 
-
-        
-
         <div class="col-lg-7">
           <div class="about-descr">
 
             <p class="p-heading">
-                <p class="p-details">I'm a full stack developer with a Master degree in Applied Analytics from Columbia University. Having some years of experience in the tech industry from previous careers shaped me into an effective team member. As a developer I always strive for the best outcomes and learn new technologies to create innovative and scalable applications.</p>
+                <p class="p-details">I'm a full stack developer with a Master degree in Applied Analytics from Columbia University. Having some years of QA experience in the tech industry from previous careers shaped me into an effective team member. Now, as a developer I always strive for the best outcomes and learn new technologies to create innovative and scalable applications.</p>
                 <p class="p-details">Sometimes, it’s hard not to compare myself with my former co-workers, and friends in this industry, who are 1000 times more successful than me. I truly understand that everyone is unique, and we need not compare ourselves with others. Rather than letting the negative emotion demoralize me, I convert it to my motivation. “Chance favors the prepared mind.” While the successful stories of my peers are my motivator, being prepared is my all-time attitude. A prepared mind does not necessarily lead to success, but a successful person is always prepared. I will keep at it! :)</p>
             </p>
             <p class="separator">When I'm not coding, I like playing piano, singing karaoke, and sharing music to my beloved ones.</p>
 
           </div>
-
-
-
-          
-
         </div>
+
       </div>
 
 
@@ -264,9 +257,114 @@
 
 
   </div>
-
-  
   <!-- End section Specialities -->
+
+  <!-- start section portfolio. Credit to: https://codepen.io/andersonkevin/pen/XWrBbKv?editors=1100 -->
+    <div id="portfolio" class="paddsection">
+        <div class="container">
+            <h2 id="portfolio-header">Portfolio</h2>
+                <div class="row">
+                    <!-- Portfolio img1 -->
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="/" target="_blank" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+
+                                </div>
+                                <img src="images/nook.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>Nook & Novel</h4>
+                                <p id="small-text" class="text-muted">Tools: Javascript, Express, MongoDB</p>
+                            </div>
+                        </div>
+                    <!-- End of Portfolio img1 -->
+                          
+                    <!-- Portfolio img2 -->
+                        <div class="col-md-4 col-sm-6 portfolio-item portfolio2">
+                            <a href="/" class="portfolio-link" target="_blank" data-toggle="modal">
+                                <div class="portfolio-hover">
+
+                                </div>
+                                <img src="images/supreme-emperor.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>Supreme Emperor</h4>
+                                <p id="small-text" class="text-muted">Tools: React, Express, MongoDB</p>
+                            </div>
+                        </div>
+                    <!-- End of Portfolio img2 -->
+                          
+                    <!-- Portfolio img3 -->
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="https://codepen.io/ThiagoFerreir4/full/QbKWGO" target="_blank" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-fire fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="images/pagan.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>Pagan Idol</h4>
+                                <p id="small-text" class="text-muted">Tools: Javascript, Express, MongoDB</p>
+                            </div>
+                        </div>
+                    <!-- End of Portfolio img3 -->
+                          
+                    <!-- Portfolio img4 -->
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="/" target="_blank" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-fire fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="/images/okstupid.png" class="img-responsive" alt="">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>OKStupid</h4>
+                                <p id="small-text" class="text-muted">Django, PostgreSQL</p>
+                            </div>
+                        </div>
+                    <!-- End of Portfolio img4 -->
+                          
+                    <!-- Portfolio img5 -->
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="https://codepen.io/ThiagoFerreir4/full/oXwKJV" target="_blank" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-fire fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="https://68.media.tumblr.com/59b50efb8f7435fef9f87fd871b90d7a/tumblr_nxhm4k1jI81ud7rr3o1_1280.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>App</h4>
+                                <p id="small-text" class="text-muted">Bootstrap and Vanilla Javascript</p>
+                            </div>
+                        </div>
+                    <!-- End of Portfolio img5 -->
+                          
+                    <!-- Portfolio img6 -->
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <a href="https://codepen.io/ThiagoFerreir4/full/EjwGoX/" target="_blank" class="portfolio-link" data-toggle="modal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                        <i class="fa fa-fire fa-3x"></i>
+                                    </div>
+                                </div>
+                                <img src="https://68.media.tumblr.com/030b4966650a0d1dac0bbcca6fe572e8/tumblr_nxhm7qz6Y91ud7rr3o1_1280.jpg" class="img-responsive" alt="">
+                            </a>
+                            <div class="portfolio-caption">
+                                <h4>game</h4>
+                                <p id="small-text" class="text-muted">CSS and jQuery</p>
+                            </div>
+                        </div>
+                    <!-- End of Portfolio img6 -->
+                </div> 
+        </div>
+    </div>
+  <!-- end section portfolio -->
 
 
 
