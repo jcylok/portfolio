@@ -63,7 +63,7 @@
       <div class="header-content">
         <h1>Jack Lok<span class="typed"></span></h1>
         <p id="codebutton">return <span id="fullstack">(Full Stack Developer)</span></p>
-        <p id="line2">Freedom Loving HKer, SF Bay Area Based.</p>
+        <p id="line2">Adventurer raised in the city by Victoria Habour, SF Bay Area Based. </p>
 
       </div>
       <div class="header-content-2">
@@ -134,10 +134,25 @@
 
         <div class="col-lg-4 ">
           <div class="div-img-bg">
-            <div class="about-img">
+            <!-- <div class="about-img">
               <img src="images/profile-pic.png" class="img-responsive" alt="me">
-            </div>
+            </div> -->
+
+            <div class="card card-flip h-100">
+                    <div class="card-front  ">
+                        <div class="about-img">
+                            <img src="images/profile-pic.png" class="img-responsive" alt="me">
+                        </div>
+                    </div>
+                    <div class="card-back ">
+                        <div class="about-img">
+                            <img src="images/galife.jpg" class="img-responsive" alt="me">
+                        </div>
+                    </div>
+                </div>
           </div>
+
+          
         </div>
 
         <div class="col-lg-7">
@@ -167,7 +182,7 @@
     <div class="container">
       <div class="section-title text-center">
         <h2>My Specialities</h2>
-        <!-- <img id="bond" src="/images/007.gif" alt="007"> -->
+        <img id="bond" src="/images/007.png" alt="007">
       </div>
       
     </div>
@@ -579,7 +594,7 @@
     
                     <div class="col-lg-6">
                       <div class="form-group contact-block1">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:3" data-msg="Please enter at least 3 characters" />
                         <div class="validation"></div>
                       </div>
                     </div>
@@ -593,14 +608,14 @@
     
                     <div class="col-lg-12">
                       <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 characters of subject" />
                         <div class="validation"></div>
                       </div>
                     </div>
     
                     <div class="col-lg-12">
                       <div class="form-group">
-                        <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for me" placeholder="Message"></textarea>
                         <div class="validation"></div>
                       </div>
                     </div>
@@ -661,6 +676,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
 
   <script src="js/main.js"></script>
 

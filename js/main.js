@@ -120,6 +120,18 @@ $(document).ready(function() {
   
   });
 
+  // ========================================================================= //
+  //  // ABOUT CONTENT
+  // ========================================================================= //
+
+
+
+
+
+
+
+
+  
   // Multi-Carousel
   // credit to https://bootsnipp.com/snippets/zDQkr
   var itemsMainDiv = ('.MultiCarousel');
