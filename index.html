@@ -167,7 +167,9 @@
     <div class="container">
       <div class="section-title text-center">
         <h2>My Specialities</h2>
+        <!-- <img id="bond" src="/images/007.gif" alt="007"> -->
       </div>
+      
     </div>
 
     <div class="container">
@@ -345,7 +347,7 @@
                             </div>
                             <div class="portfolio-caption">
                                 <h4>OKStupid</h4>
-                                <p id="small-text" class="text-muted">Django, PostgreSQL</p>
+                                <p id="small-text" class="text-muted">Tools: Django, PostgreSQL</p>
                                 <div>
                                     <a href="/" target="_blank" class="linklogo"><i class="fa fa-github-square" aria-hidden="true"></i></a>
                                     <a href="/" target="_blank" class="linklogo2"><i class="fa fa-link" aria-hidden="true"></i></a>    
@@ -524,6 +526,20 @@
     </div>
   </div>
   <!-- End of Modal OKStupid -->
+  <!-- Modal Space Invader -->
+  <div class="modal" id="modal5">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h1>Space Invader</h1>
+      <video class="modalvideo" controls autoplay>
+        <source src="/videos/space.mp4" type="video/mp4">
+      </video>
+      <div class="container">
+
+      </div>
+    </div>
+  </div>
+  <!-- End of Space Invader -->
 
 
 
@@ -534,33 +550,73 @@
 
   <!-- start sectoion contact -->
   <div id="contact" class="paddsection">
-    <div class="container">
-      <div class="contact-block1">
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="contact-contact">
-
-              <h2 class="mb-30">GET IN TOUCH</h2>
-
-              <ul class="contact-details">
-                <li><span>23 Main, Street</span></li>
-                <li><span>New York, United States</span></li>
-                <li><span>+88 01912704287</span></li>
-                <li><span>example@example.com</span></li>
-              </ul>
-
+        <div class="container">
+          <div class="contact-block1">
+            <div class="row">
+    
+              <div class="col-lg-6">
+                <div class="contact-contact">
+    
+                  <h2 class="mb-30">Get In Touch!</h2>
+    
+                  <ul class="contact-details">
+                    <li ><a href="https://www.linkedin.com/in/jack-lok/" target="_blank"><i id="linkedin" class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    <li ><a href="https://github.com/jcylok" target="_blank"><i id="github" class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                    <li ><a href="/" target="_blank"><i id="file" class="fa fa-file" aria-hidden="true"></i></a></li>
+                    <li ><a href="mailto:jack22hk@gmail.com" target="_blank"><i id="envelope" class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+           
+                  </ul>
+    
+                </div>
+              </div>
+    
+              <div class="col-lg-6">
+                <form action="" method="post" role="form" class="contactForm">
+                  <div class="row">
+    
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+    
+                    <div class="col-lg-6">
+                      <div class="form-group contact-block1">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col-lg-12">
+                      <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                    </div>
+    
+                  </div>
+                </form>
+              </div>
             </div>
-          </div>
-
-          <div class="col-lg-6">
-
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- start sectoion contact -->
+    <!-- start sectoion contact -->
 
 
   <!-- start section footer -->
@@ -581,11 +637,11 @@
 
       <p>&copy; 2019 Jack Lok.</p>
 
-      <div class="accountslink">
+      <!-- <div class="accountslink">
 
         <a href="/">LinkedIn</a>
         <a href="/">Github</a>
-      </div>
+      </div> -->
 
     </div>
   </div>
