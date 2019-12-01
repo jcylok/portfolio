@@ -273,9 +273,10 @@ nav ul li a {
 #codebutton {
     animation: shake 4s;
     animation-iteration-count: infinite;
-    color: #18d26e;
+    color: #C586C0;
     cursor: pointer;
     text-transform: none;
+    font-family: 'Monaco', 'Courier New';
 }
 
 #fullstack {
@@ -335,6 +336,7 @@ nav ul li a {
 
 #line2 {
   font-size: 18px;
+  font-family: 'Monaco', 'Courier New';
 }
 
 @media (max-width:480px) {
@@ -560,22 +562,26 @@ color:#569CD6;
 /* Carousel */
 
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
-    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
-        .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666; border-radius: 5%;}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
-    .MultiCarousel .leftLst { left:0; }
-    .MultiCarousel .rightLst { right:0; }
-    
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
-        .MultiCarousel img {
-          /* width: 100px; */
-          width:auto;
-          height: 100px;                    
-        }
+.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+.MultiCarousel .MultiCarousel-inner .item { float: left;}
+.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:rgba(181,157,123, 0.7); color:#666; border-radius: 5%;border: 3px solid #B59D7B;}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }   
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+.MultiCarousel img {
+  /* width: 100px; */
+  width:auto;
+  height: 100px;                    
+}
 .MultiCarouselbtn {
   width: 50px !important;
-  height: 50px !important;
+  height: 50px !important;s
+}
+
+.lead {
+  color: black;
+  font-size: 15px;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -617,7 +623,7 @@ color:#569CD6;
   transition: 0.5s;
   box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
   background: #B59D7B;
-  height: 302px;
+  height: 335px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -694,6 +700,16 @@ color:#569CD6;
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
+}
+
+.linklogo {
+font-size: 30px;
+color: grey;
+margin-right: 10px;
+}
+.linklogo2 {
+font-size: 25px;
+color: grey;
 }
 
 

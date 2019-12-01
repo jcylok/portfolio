@@ -50,7 +50,6 @@ $(document).ready(function() {
   //  //NAVBAR SHOW - HIDE
   // ========================================================================= //
 
-
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll > 200 ) {
@@ -136,7 +135,6 @@ $(document).ready(function() {
   });
 
   ResCarouselSize();
-
 
 
 
