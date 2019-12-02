@@ -157,6 +157,7 @@ nav {
   z-index: 1000;
   width: 100%;
   padding: 20px;
+  padding-bottom: 30px;
   display: none;
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
@@ -270,6 +271,7 @@ nav ul li a {
 
 #fullstack {
   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 12px gold, 0 0 5px;
 }
 
 .header-content p:hover, #codebutton {
@@ -299,6 +301,7 @@ nav ul li a {
   text-transform: uppercase;
   color: #fff;
   margin-top: 260px;
+  text-shadow: 1px 1px 2px black, 0 0 12px gold, 0 0 5px;
 }
 
 .header-content p {
@@ -327,6 +330,7 @@ nav ul li a {
   font-size: 13px;
   font-family: 'Monaco', 'Courier New';
   letter-spacing: 2px;
+  text-transform: none;
 }
 
 @media (max-width:480px) {
@@ -521,6 +525,16 @@ color:#569CD6;
 .p-details {
   margin-bottom: 20px;
 }
+.p-details2 {
+  font-size: 13px;
+  line-height: 25px;
+  display: none;
+}
+
+#more {
+  margin-top: 20px;
+  border-style: ridge;
+}
 
 #about .about-descr .separator {
   max-width: 80%;
@@ -576,6 +590,7 @@ color:#569CD6;
 
 #specialities h2 {
   color: ghostwhite;
+  text-shadow: 1px 1px 2px black, 0 0 12px gold, 0 0 5px;
 }
 
 #bond {
@@ -595,7 +610,7 @@ color:#569CD6;
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
 .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
 .MultiCarousel .MultiCarousel-inner .item { float: left;}
-.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:rgba(181,157,123, 0.7); color:#666; border-radius: 5%;border: 3px solid #B59D7B;}
+.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:rgba(181,157,123, 0.4); color:#666; border-radius: 5%;border: 3px solid #B59D7B;}
 .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
 .MultiCarousel .leftLst { left:0; }
 .MultiCarousel .rightLst { right:0; }   
@@ -607,11 +622,11 @@ color:#569CD6;
 }
 .MultiCarouselbtn {
   width: 50px !important;
-  height: 50px !important;s
+  height: 50px !important;
 }
 
 .lead {
-  color: black;
+  color: white;
   font-size: 15px;
 }
 
@@ -967,6 +982,7 @@ color: grey;
   color: whitesmoke;
   margin-bottom: 90px;
   font-size: 25px;
+  text-shadow: 1px 1px 2px black, 0 0 12px gold, 0 0 5px;
 }
 
 @media(max-width:767px) {

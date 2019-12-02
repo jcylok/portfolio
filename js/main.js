@@ -124,14 +124,13 @@ $(document).ready(function() {
   //  // ABOUT CONTENT
   // ========================================================================= //
 
+    $("#more").click(function(){
+      $(".p-details2").animate({
+        height: 'toggle'
+      });
+    });
 
 
-
-
-
-
-
-  
   // Multi-Carousel
   // credit to https://bootsnipp.com/snippets/zDQkr
   var itemsMainDiv = ('.MultiCarousel');
@@ -255,12 +254,6 @@ $(document).ready(function() {
     });
   });
 
-  // Maybe also close with "Esc"...
-  // document.addEventListener("keydown", event => {
-  //   if(event.keyCode === 27 && document.querySelector(".modal.modal-show")) {
-  //     toggleModal(document.querySelector(".modal.modal-show").id);
-  //   }
-  // });
 
   function toggleModal(modalId) {
     const modal = document.getElementById(modalId);
