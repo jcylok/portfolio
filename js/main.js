@@ -128,7 +128,14 @@ $(document).ready(function() {
       $(".p-details2").animate({
         height: 'toggle'
       });
+      if ($("#more").text() === 'More') {
+        $("#more").text('Hide');
+      } else {
+        $("#more").text('More');
+      }
     });
+
+    
 
 
   // Multi-Carousel
