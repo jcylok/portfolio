@@ -270,6 +270,10 @@ nav ul li a {
   }
 }
 
+#arrow {
+  font-size: 35px !important;
+}
+
 #fullstack {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 12px gold, 0 0 5px;
@@ -1200,6 +1204,11 @@ color: grey;
 .accountslink {
   font-size: 13px;
 }
+
+
+
+
+
 
 
 
