@@ -12,3 +12,7 @@ My biggest wins and challenges:
 - Biggest win: This is my first personal website
 - Biggest challenge: How to make good use of the combination of boostrap. (need to override a lot fo default styling)
 
+
+
+
+![alt text](https://github.com/jcylok/portfolio/blob/master/snippets-of-code/portfolio_screenshot.png?raw=true)
