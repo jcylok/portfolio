@@ -111,7 +111,8 @@ jQuery(document).ready(function($) {
         }
 
       }
-    });
+    })
+    .then(alert("Thank you!"))
     return false;
   });
 
