@@ -112,7 +112,7 @@ jQuery(document).ready(function($) {
 
       }
     })
-    .then(alert("Thank you!"))
+    .then(window.alert("Thank you!"))
     return false;
   });
 
